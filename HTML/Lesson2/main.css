@@ -1,0 +1,26 @@
+        html {
+            scroll-behavior: smooth;
+        }
+
+        h2 {
+            background: chocolate;
+            text-align: left;
+        }
+
+        .justify18 {
+            text-align: justify;
+            font-size: 18px;
+        }
+
+        .padding-block-start {
+            padding-block-start: 20px;
+        }
+
+        #border {
+            border: 3px solid green;
+            color: cornsilk;
+        }
+
+        .menu li {
+            display: inline-block;
+        }
