@@ -1,0 +1,97 @@
+.container {
+    width: min-content;
+    display: flex;
+    justify-content: flex-start;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 600px;
+    background: lightblue;
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    /*align-items: center;*/
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.sector-1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 200px;
+}
+
+.sector-2 {
+    justify-content: flex-start;
+    display: flex;
+    width: 400px;
+
+}
+
+.hero-sidebar {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background: mediumpurple;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.sidebar {
+    display: flex;
+    width: 200px;
+    height: 300px;
+    background: lightgreen;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+}
+
+.content-e-content {
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+}
+
+.content {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background: orange;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+}
+
+.extra-content {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background: gray;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+}
+

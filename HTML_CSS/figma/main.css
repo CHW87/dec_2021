@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+     width: 100%;
+    flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    height: 66px;
+    width: 1440px;
+    background: #FFFFFF 95%;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_header {
+    display: flex;
+    column-gap: 38px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*margin-left: 205px;*/
+    /*margin-right: 835.5px;*/
+}
+
+.nav_item_main {
+       font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.nav_item_blog {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.nav_item_contact {
+    margin-top: 23.56px;
+    margin-bottom: 24px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.header_icons {
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    column-gap: 23px;
+}
+
+.facebook {
+    color: #C4C4C4;
+}
+
+.instagram {
+    color: #30ABAE;
+}
+
+.twitter {
+    color: #C4C4C4;
+}
+
+.content {
+    width: 100%;
+    height: min-content;
+    box-sizing: border-box;
+    display: flex;
+}
+
+
+.slide img {
+    position: absolute;
+    width: 1445px;
+    height: 671px;
+    left: -4px;
+    top: 69px;
+
+}
+
+h1 {
+    position: absolute;
+    width: 517px;
+    height: 80px;
+    left: 451px;
+    top: 529px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    z-index: 1;
+
+}
+
+.about_trips {
+    position: absolute;
+    width: 517px;
+    height: 80px;
+    left: 451px;
+    top: 529px;
+    background: none;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.main_content h2 {
+    position: absolute;
+    width: 425px;
+    height: 48px;
+    left: 506px;
+    top: 829px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.ellipses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ellipse1 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 594px;
+    top: 781px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    background: #30ABAE;
+}
+
+.ellipse2 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 654px;
+    top: 781px;
+    border-radius: 50%;
+    background: #30ABAE;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+.ellipse3 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 714px;
+    top: 781px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    background: #30ABAE;
+}
+
+.ellipse4 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 774px;
+    top: 781px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    background: #30ABAE;
+}
+
+.ellipse5 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 834px;
+    top: 781px;
+
+    border-radius: 50%;
+    border: 2px solid #000000;
+    background: #30ABAE;
+}
+
+.marrakesh {
+    position: absolute;
+    width: 342px;
+    height: 493px;
+    left: 97px;
+    top: 918px;
+
+}
+
+.marrakesh h3 {
+    position: absolute;
+    left: 14.04%;
+    right: 2.63%;
+    top: 35.09%;
+    bottom: 59.23%;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+}
+
+.marrakesh p {
+    position: absolute;
+    left: 13.74%;
+    right: 0%;
+    top: 46.04%;
+    bottom: 0%;
+    /*border-left: 2px solid #ED8651;*/
+
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.marrakesh line {
+    position: absolute;
+    width: 190.023926px;
+    left: -93px;
+    top: 324.023926px;
+    border: 2px solid #ED8651;
+    transform: rotate(-90deg);
+}
+
+.siemreap {
+
+    position: absolute;
+    width: 342px;
+    height: 493px;
+    left: 557px;
+    top: 916px;
+}
+
+.siemreap h3 {
+    position: absolute;
+    left: 14.04%;
+    right: 14.04%;
+    top: 35.09%;
+    bottom: 59.23%;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+
+}
+
+.siemreap p {
+    position: absolute;
+    left: 13.74%;
+    right: 0%;
+    top: 46.04%;
+    bottom: 0%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.siemreap line {
+    position: absolute;
+    width: 247.023926px;
+    left: -121px;
+    top: 355.023926px;
+    border: 2px solid #ED8651;
+    transform: rotate(-90deg);
+}
+
+.stambul {
+    position: absolute;
+    width: 342px;
+    height: 493px;
+    left: 1017px;
+    top: 918px;
+}
+
+.stambul h3 {
+    position: absolute;
+    left: 14.04%;
+    right: 14.91%;
+    top: 35.09%;
+    bottom: 59.23%;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+}
+
+.stambul p {
+    position: absolute;
+    left: 13.74%;
+    right: 0%;
+    top: 46.04%;
+    bottom: 0%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.stambul line {
+    position: absolute;
+    width: 248.023926px;
+    left: -122px;
+    top: 355.023926px;
+    border: 2px solid #ED8651;
+    transform: rotate(-90deg);
+}
+
+.footer {
+    position: absolute;
+    width: 1445px;
+    height: 168px;
+    left: 29px;
+    top: 1464px;
+
+}
+
+.menu_footer {
+    position: absolute;
+    left: -2.01%;
+    right: 2.01%;
+    top: 4.17%;
+    bottom: 41.83%;
+
+    background: #16595A;
+}
+

@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    height: 66px;
+    width: 1440px;
+    background: #FFFFFF 95%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_header {
+    display: flex;
+    column-gap: 38px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*margin-left: 205px;*/
+    /*margin-right: 835.5px;*/
+}
+
+.nav_item_main {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.nav_item_blog {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+.nav_item_contact {
+    margin-top: 23.56px;
+    margin-bottom: 24px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.header_icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    column-gap: 23px;
+}
+
+.facebook {
+    color: #C4C4C4;
+}
+
+.instagram {
+    color: #30ABAE;
+}
+
+.twitter {
+    color: #C4C4C4;
+}
+
+.content {
+    width: 100%;
+    height: min-content;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content h1 {
+    position: absolute;
+    width: 151px;
+    height: 96px;
+    top: 100px;
+    padding-left: 25px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 96px;
+}
+
+.blog {
+    height: 96px;
+    width: 151px;
+    left: 202.1484375px;
+    top: 102px;
+}
+
+.header_content {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    top: 200px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.h4, h4 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-left: 25px;
+}
+
+.nav.flex-column {
+    row-gap: 11px;
+}
+
+hr {
+    height: 2px;
+    width: 100%;
+    border-width: 1px;
+    background-color: #ED8651;
+}
+
+span {
+    font-family: Open Sans;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: left;
+    color: #C0C0C0;
+}
+
+.ellipse {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #C4C4C4;
+}
+
+.autor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    column-gap: 13px;
+}
+
+
+p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.nav-link {
+    width: 210px;
+    box-sizing: border-box;
+    border: 1px solid #E4E4E4;
+    border-radius: 15px;
+    padding: 0 25px;
+    font-size: 14px;
+}
+
+a.button {
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 24px;
+    color: #30ABAE;
+    border: none;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+
+/*a.arrow {*/
+/*    font-family: Open Sans;*/
+/*    font-size: 16px;*/
+/*    line-height: 24px;*/
+/*    color: #30ABAE;*/
+/*    border: none;*/
+/*    text-align: end;*/
+/*}*/
+
+h3 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+/*.arrow-right {*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    border-top: 60px solid transparent;*/
+/*    border-bottom: 60px solid transparent;*/
+
+/*    border-left: 60px solid green;*/
+/*}*/
+.arr {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 24px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    background: #16595A;
+}
+.pages {
+    width: 100%;
+    height: 115px;
+    background: #F2F5F1;
+}
+
+
