@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AVATAR</title>
+</head>
+<body>
+<script>
+
+    fetch('https://api.sampleapis.com/futurama/characters')
+        .then(response => response.json())
+        .then(characters => {
+            console.log(characters);
+            // for (const character of characters)
+            for (let i = 0; i <=3; i++) {
+                const character = characters[i];
+
+                document.write(`
+             <div>
+                 <h2>${character.name.first} ${character.name.last}</h2>
+                 <p>${character.gender}</p>
+                 <img src="${character.images.main}">
+            </div>
+`);
+            }
+        })
+
+
+</script>
+
+</body>
+</html>
