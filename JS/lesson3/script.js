@@ -552,15 +552,13 @@
 
 
 //--Завантажити з мережі будь-який шаблон сайту. Підключити до нього свій скріпт-файл. У файлі прописати наступні доступи та дії
-//(Шаблон не завантажував)
-// - знайти всі елементі, які мають id                                    ?????
-//let arr = document.getElementsById ;                          ?????
-//for (let tag of arr) {                                                  ?????
-//  //if (tag.name === 'id') {                                            ?????
-//      console.log(tag.id);                                              ?????
-//                                                                        ?????
-// // }                                                                   ?????
-//}                                                                       ?????
+// - знайти всі елементі, які мають id
+// let arr = document.getElementsByTagName('*') ;
+// for (let tag of arr) {
+//  if (tag.getAttribute('id')) {
+//      console.log(tag);
+//  }
+// }
 
 
 // - знайти всі параграфи ,та змінити текст на hello oktenweb!
