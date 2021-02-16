@@ -8,7 +8,7 @@
 // // --2-- создать 5 объектов с полностью разным набором полей. В каждом объекте должен присутсвовать массив и внутренний объект. Опишите что угодно, машину, картину, болт... Пример : let man = { name: 'kokos', skills : ['java','js'] , wife: { name: 'cherry' } };
 // let man = { name: 'John', skills : ['java','js','python'] , woman: { name: 'Diana',status:true } };
 // let wife = {county: 'ukraine',car : ['audi','ford'] , children: { status: 'students',study :'english' } };
-// let flat = {parameters: ['height','width','lenth'] ,color: 'yellow', rooms: {quantity: 5 } };
+// let flat = {parameters: ['height','width','length'] ,color: 'yellow', rooms: {quantity: 5 } };
 // let town = {region : 'Lviv',districts: ['Syhiv','Levandivka'],people:{ population: 800000 } };
 // let auto = {model: 'mazda', year: [2003, 2009], type: ['sedan','hatchback'],wheels:{ r:16, h:195}};
 
@@ -515,6 +515,7 @@
 //    let tr = document.createElement('tr');
 //    for (let j = 0; j < 3; j++) {
 //       let td = document.createElement('td');
+//       td.innerText = 'asdasdafdasfa';
 //       tr.appendChild(td);
 //    }
 //    table.appendChild(tr);
@@ -527,6 +528,7 @@
 //     let tr = document.createElement('tr');
 //     for (let j = 0; j < 5; j++) {
 //         let td = document.createElement('td');
+//         td.innerText = 'asdasdafdasfa';
 //         tr.appendChild(td);
 //     }
 //     table.appendChild(tr);
@@ -542,6 +544,7 @@
 //     let tr = document.createElement('tr');
 //     for (let j = 0; j < m; j++) {
 //         let td = document.createElement('td');
+//         td.innerText = 'asdasdafdasfa';
 //         tr.appendChild(td);
 //     }
 //     table.appendChild(tr);
