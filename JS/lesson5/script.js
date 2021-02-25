@@ -223,14 +223,22 @@ class Prince {
     }
 
     findCinderella(cinderellaArray) {
+        let winner = null;
         for (const cinderellaArrayElement of cinderellaArray) {
             if (cinderellaArrayElement.footsize === this.shoe) {
-                console.log(cinderellaArrayElement.name)
+                winner = cinderellaArrayElement;
+                // console.log(cinderellaArrayElement.name)
             }
+        }
+        if (winner){
+            console.log('Cinderella name' + winner.name);
+        }else{
+            console.log('No winner');
         }
     }
 }
-     Prince
+    let prince = new Prince('Fedya',45,35);
+prince.findCinderella(cinderellaArray)
 //
 //
 //==============================================
