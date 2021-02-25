@@ -130,6 +130,7 @@
 
 
 //==============================================
+
 //- Створити об'єкт car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
 //-- drive () - яка виводить в консоль "їдемо зі швидкістю {максимальна швидкість} на годину"
 //-- info () - яка виводить всю інформацію про автомобіль
@@ -188,59 +189,54 @@
 // car.info();
 // car.drive()
 
-
-//
-//
-//
 //==============================================
 //-створити класс попелюшка з полями ім'я, вік, розмір ноги
 //--Створити 10 попелюшок , покласти їх в масив
 //--Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 //-- за допоиоги циклу знайти яка попелюшка повинна бути з принцом
 //==============================================
-class Cinderella {
-    constructor(name, age, footSize) {
-        this.name = name;
-        this.age = age;
-        this.footsize = footSize;
-    }
-}
-
-let cinderellaArray = [];
-let cinderella1 = new Cinderella('Anya', 30, 37);
-let cinderella2 = new Cinderella('lena', 25, 35);
-let cinderella3 = new Cinderella('Olya', 34, 45);
-let cinderella4 = new Cinderella('Katya', 50, 41);
-let cinderella5 = new Cinderella('Sveta', 33, 35);
-cinderellaArray.push(cinderella1, cinderella2, cinderella3, cinderella4, cinderella5);
-console.log(cinderellaArray);
-
-class Prince {
-    constructor(name, age, shoe) {
-        this.name = name;
-        this.age = age;
-        this.shoe = shoe;
-    }
-
-    findCinderella(cinderellaArray) {
-        let winner = null;
-        for (const cinderellaArrayElement of cinderellaArray) {
-            if (cinderellaArrayElement.footsize === this.shoe) {
-                winner = cinderellaArrayElement;
-                // console.log(cinderellaArrayElement.name)
-            }
-        }
-        if (winner){
-            console.log('Cinderella name' + winner.name);
-        }else{
-            console.log('No winner');
-        }
-    }
-}
-    let prince = new Prince('Fedya',45,35);
-prince.findCinderella(cinderellaArray)
+// class Cinderella {
+//     constructor(name, age, footSize) {
+//         this.name = name;
+//         this.age = age;
+//         this.footsize = footSize;
+//     }
+// }
+// let cinderellaArray = [];
+// let cinderella1 = new Cinderella('Anya', 30, 37);
+// let cinderella2 = new Cinderella('lena', 25, 35);
+// let cinderella3 = new Cinderella('Olya', 34, 45);
+// let cinderella4 = new Cinderella('Katya', 50, 41);
+// let cinderella5 = new Cinderella('Sveta', 33, 35);
+// cinderellaArray.push(cinderella1, cinderella2, cinderella3, cinderella4, cinderella5);
+// console.log(cinderellaArray);
 //
+// class Prince {
+//     constructor(name, age, shoe) {
+//         this.name = name;
+//         this.age = age;
+//         this.shoe = shoe;
+//     }
 //
+//     findCinderella(cinderellaArray) {
+//         let winner = null;
+//         for (const cinderellaArrayElement of cinderellaArray) {
+//             if (cinderellaArrayElement.footsize === this.shoe && cinderellaArrayElement.age <=30) {
+//                 winner = cinderellaArrayElement;
+//                 // console.log(cinderellaArrayElement.name)
+//             }
+//         }
+//         if (winner){
+//             console.log('Cinderella name' + ' ' + winner.name);
+//         }else{
+//             console.log('No winner');
+//         }
+//     }
+// }
+//     let prince = new Prince('Fedya',45,35);
+// prince.findCinderella(cinderellaArray)
+// console.log(prince);
+
 //==============================================
 //-створити функцію конструктор попелюшка з полями ім'я, вік, розмір ноги
 //--Створити 10 попелюшок , покласти їх в масив
