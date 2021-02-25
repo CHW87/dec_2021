@@ -361,7 +361,21 @@
 // Выведите слово YES, если число N является точной степенью двойки,
 // или слово NO в противном случае.
 // Операцией возведения в степень пользоваться нельзя!
-//
+// function sqrt2(n) {
+//    let result = Math.sqrt(n);
+//    if(result === 1 && typeof (result)=== 'int'){
+//        console.log('YES')
+//    } else if (result !==1 || typeof (result) !== 'int'{
+//        console.log('NO');
+//    }
+//    return result
+// }
+// sqrt2(2)
+// let isExponentTwo = (num) => num & (num - 1) ? 'NO' : 'YES';
+// console.log(isExponentTwo(0))
+let isExponentTwo = (num) => (num & (num - 1)) && num != 0 ? 'NO' : 'YES';
+console.log(isExponentTwo(24))
+
 // 2) Deep Copy
 // реалізувати глибоке копіювання обєкту за допомогою рекурсій
 //
