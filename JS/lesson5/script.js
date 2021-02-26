@@ -243,3 +243,43 @@
 //--Сторити об'єкт типу "принц" за допомоги функції конструктора з полями ім'я, вік, туфелька яку він знайшов, та функцію "пошук попелюшки"
 //-- функція повинна приймати масив попелюшок, та шукає ту котра йому підходить
 //==============================================
+
+function Cinderella(name, age, footSize) {
+    this.name = name;
+    this.age = age;
+    this.footsize = footSize;
+}
+
+let cinderellaArray = [];
+let cinderella1 = new Cinderella('Anya', 30, 37);
+let cinderella2 = new Cinderella('lena', 25, 35);
+let cinderella3 = new Cinderella('Olya', 34, 45);
+let cinderella4 = new Cinderella('Katya', 50, 41);
+let cinderella5 = new Cinderella('Sveta', 33, 35);
+cinderellaArray.push(cinderella1, cinderella2, cinderella3, cinderella4, cinderella5);
+console.log(cinderellaArray);
+
+function Prince(name, age, shoe) {
+    this.name = name;
+    this.age = age;
+    this.shoe = shoe;
+
+    this.findCinderella = function (cinderellaArray) {
+        let winner = null;
+        for (const cinderellaArrayElement of cinderellaArray) {
+            if (cinderellaArrayElement.footsize === this.shoe && cinderellaArrayElement.age <= 30) {
+                winner = cinderellaArrayElement;
+                // console.log(cinderellaArrayElement.name)
+            }
+        }
+        if (winner) {
+            console.log('Cinderella name' + ' is ' + winner.name);
+        } else {
+            console.log('No winner');
+        }
+    }
+}
+
+let prince = new Prince('Fedya', 45, 35);
+prince.findCinderella(cinderellaArray)
+console.log(prince);
