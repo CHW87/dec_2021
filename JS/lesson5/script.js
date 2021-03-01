@@ -282,6 +282,6 @@
 //     }
 // }
 //
-// let prince = new Prince('Fedya', 45, );
+// let prince = new Prince('Fedya', 45, 35);
 // prince.findCinderella(cinderellaArray)
 // console.log(prince);
