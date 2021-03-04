@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>userDetails</title>
+    <style>
+        .item {
+            background-color: silver;
+        }
+    </style>
+</head>
+<body>
+<div id="target"></div>
+<script>
+    let target = document.getElementById('target')
+    fetch('https://jsonplaceholder.typicode.com/users')
+    .then (response => response.json())
+    .then(users =>{
+        for (const user of users) {
+            let p = document.createElement('p');
+            p.innerText = user.id + ' ' + user.name + '--';
+            p.classList.add('item')
+            target.appendChild(p);
+            let a = document.createElement('a');
+            a.innerText = 'details';
+            a.href= `userDetails.html?data=${JSON.stringify(user)}`
+            p.appendChild(a);
+        }
+    })
+
+</script>
+</body>
+</html>
