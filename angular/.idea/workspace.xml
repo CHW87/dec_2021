@@ -1,59 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0c385db-8576-405c-9fc6-c3d8011d3db5" name="Default Changelist" comment="create lesson1_HW branch">
-      <change afterPath="$PROJECT_DIR$/../Angular1/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/comment/comment.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/comment/comment.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/comment/comment.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/comments/comments.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/comments/comments.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/comments/comments.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/models/comment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/models/post.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/models/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/post/post.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/post/post.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/post/post.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/posts/posts.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/posts/posts.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/posts/posts.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/services/comment.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/services/post.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/services/user.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/user/user.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/user/user.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/user/user.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/users/users.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/users/users.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/app/users/users.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular1/tsconfig.spec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/models/post.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/post.ts" afterDir="false" />
-    </list>
+    <list default="true" id="c0c385db-8576-405c-9fc6-c3d8011d3db5" name="Default Changelist" comment="lesson1_HW done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +78,7 @@
       <workItem from="1622385152212" duration="8787000" />
       <workItem from="1622404285067" duration="5492000" />
       <workItem from="1622441126453" duration="2190000" />
-      <workItem from="1622454135937" duration="5514000" />
+      <workItem from="1622454135937" duration="5795000" />
     </task>
     <task id="LOCAL-00001" summary="create lesson1_HW branch">
       <created>1622407932014</created>
@@ -139,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622407932014</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson1_HW done">
+      <created>1622481242519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622481242519</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +102,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create lesson1_HW branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="create lesson1_HW branch" />
+    <MESSAGE value="lesson1_HW done" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson1_HW done" />
   </component>
 </project>
