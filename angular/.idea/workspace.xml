@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0c385db-8576-405c-9fc6-c3d8011d3db5" name="Default Changelist" comment="lesson1_HW done" />
+    <list default="true" id="c0c385db-8576-405c-9fc6-c3d8011d3db5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +78,7 @@
       <workItem from="1622385152212" duration="8787000" />
       <workItem from="1622404285067" duration="5492000" />
       <workItem from="1622441126453" duration="2190000" />
-      <workItem from="1622454135937" duration="5795000" />
+      <workItem from="1622454135937" duration="5882000" />
     </task>
     <task id="LOCAL-00001" summary="create lesson1_HW branch">
       <created>1622407932014</created>
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622481242519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lesson1_HW done">
+      <created>1622481404935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622481404935</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
