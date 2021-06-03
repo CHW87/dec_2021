@@ -1,2 +1,5 @@
-<h1>{{post.id}}--{{post.body}}</h1>
-<app-comments [postId]="post.id"></app-comments>
+<!--<h1>{{post.id}}&#45;&#45;{{post.body}}</h1>-->
+<!--<app-comments [postId]="post.id"></app-comments>-->
+<p>{{post.id}}--{{post.title}}
+<a [routerLink]="[post.id]">post details</a>
+</p>
