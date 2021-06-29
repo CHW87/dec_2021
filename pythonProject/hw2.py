@@ -118,13 +118,13 @@ l=[-1, 22, 0, 30, 55, 7, 8]
 #     return 'Hello_boss_!!!'
 #  написати декоратор до цієї функції, який замінює нижні підчеркування на пробіли і повертає це значення
 
-def decor(func):
-	def wrap(*args,**kwargs):
-		return func(*args,**kwargs).replace('_', ' ')
-	return wrap()
-
-@decor
-def pr():
-	return 'Hello_Boss_!!!'
-
-print(pr())
+# def decor(func):
+# 	def wrap():
+# 		return func().replace('_', ' ')
+# 	return wrap()
+# 
+# @decor
+# def pr():
+# 	return 'Hello_Boss_!!!'
+# 
+# print(pr)
