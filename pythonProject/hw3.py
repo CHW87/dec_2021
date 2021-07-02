@@ -29,16 +29,18 @@ class Prince:
 		self.age = age
 		self.shoe_size = shoe_size
 
+	def find_cinderella(self, *cinderellas):
+		for cinderella in cinderellas:
+			if cinderella.foot_size == prince.shoe_size:
+				return cinderella
 
-def find_cinderella(self, *cinderellas):
-	for cinderella in cinderellas:
-		if cinderella.foot_size == prince.shoe_size:
-			return cinderella
+
+
 
 
 prince = Prince('Ivan', 25, 36)
 print(
-		(find_cinderella(
+		(Prince.find_cinderella(
 				Cinderella('Nadia', 18, 35),
 				Cinderella('Sveta', 23, 37),
 				Cinderella('Ira', 19, 36),
