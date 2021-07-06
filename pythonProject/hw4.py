@@ -91,9 +91,6 @@ class Train(AirplaneTrain):
 	def __str__(self):
 		return f'Train({self.travel_time}-{self.ticket_cost}-{self.class_of_sit})'
 
-	def __str__(self):
-		return f'Train({self.travel_time}-{self.ticket_cost}-{self.class_of_sit})'
-
 
 class Airplane(AirplaneTrain):
 	def __init__(self, travel_time: float, ticket_cost: int, class_of_sit: str, register_time: int):
