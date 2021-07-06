@@ -1,0 +1,18 @@
+<form [formGroup]="myForm" (ngSubmit)="save()" >
+  <!--  <1>-->
+  <!--  <input type = "text" formControlName="login">-->
+  <!--  <input type = "text" formControlName="password">-->
+
+  <input type="text" [formControl] = "loginControl">
+  <div *ngIf = "loginControl.errors?.badWord">error</div>
+  <input type="text" [formControl] = "passwordControl">
+
+  <select [formControl] = "select">
+    <option [value]="1" >1</option>
+    <option [value]="2" >2</option>
+    <option [value]="3" >3</option>
+    <option [value]="4" >4</option>
+
+  </select>
+  <button>save</button>
+</form>

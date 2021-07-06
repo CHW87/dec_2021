@@ -2,21 +2,22 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent} from './app.component';
-import {RouterModule, Routes} from "@angular/router";
+import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    TemplateDrivenFormComponent,
+    ReactiveFormComponent,
 
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot([
-      {path:'users',loadChildren: ()=>import('./modules/user/user.module').then(m => m.UserModule)},
-      {path:'posts',loadChildren: ()=>import('./modules/post/post.module').then(m => m.PostModule)},
-      {path:'comments',loadChildren: ()=>import('./modules/comment/comment.module').then(m => m.CommentModule)},
-    ])
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

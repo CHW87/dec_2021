@@ -1,0 +1,14 @@
+<form #myform = 'ngForm' (ngSubmit)="submit(myform)">
+  <div>
+      <input #lgn='ngModel' required minlength="3" name = "login" type="text" [(ngModel)]="user.login">
+  <div *ngIf="lgn.errors?.required">required field</div>
+    <div *ngIf="lgn.errors?.minlength?.actualLength < lgn.errors?.minlength?.requiredLength">
+      actual length is - {{lgn.errors?.minlength?.actualLength}}
+      required length is - {{lgn.errors?.minlength?.requiredLength}}
+    </div>
+  </div>
+  <div>
+      <input required name = "password" type="text" [(ngModel)]="user.password">
+  </div>
+  <button [disabled]="myform.invalid">save</button>
+</form>
